@@ -1,5 +1,6 @@
-1，<a>标签
+﻿1，<a>标签
 2，后台Label增加onclick事件
    如：lbldangnianfahuo.Attributes.Add("onclick", "OpenfahuoDetails('" + hfdPartNumber.Value + "');");
 3，ImageButton可用前台事件。 OnClientClick='<%# String.Format("return OpenEdit(\"{0}\")",Eval("ID")) %>'
    弹窗函数一定要加return false  才会不刷新父页。
+4，test.
